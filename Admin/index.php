@@ -37,9 +37,25 @@ include 'Assets/Classes/pages/SinglePage.php';
 
     <section id="about">
       <div class="container">
-            <?php
-              include 'Assets/Pager/CreatePage.php';
-            ?>
+          <?php
+          if(isset($_GET['page']))
+          {
+              $page = $_GET['page'];
+
+              if(file_exists("Pages/".$page.".php"))
+              {
+                  include("Pages/".$page.".php");
+              }
+              else
+              {
+                  include("Pages/404.php");
+              }
+          }
+          else
+          {
+              include("Pages/home.php");
+          }
+          ?>
       </div>
     </section>
 
