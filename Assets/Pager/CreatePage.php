@@ -19,6 +19,7 @@ if ($page == null)
     <div class="row">
         <div class="col-lg-8 mx-auto">
             <h1>404</h1>
+            <p>Something went wrong</p>
         </div>
     </div>
     <?php

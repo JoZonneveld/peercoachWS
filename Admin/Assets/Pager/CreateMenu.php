@@ -17,10 +17,7 @@ $pages = $pageGetter->getPages();
                     <a class="nav-link js-scroll-trigger" href="?page=CreatePage">Create page</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="?page=EditPage">Edit page</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="?page=DeletePage">Delete page</a>
+                    <a class="nav-link js-scroll-trigger" href="?page=PagesOverview">View pages</a>
                 </li>
             </ul>
         </div>

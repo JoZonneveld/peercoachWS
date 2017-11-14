@@ -23,7 +23,7 @@ class Page
             $i = 0;
             while($row = $this->db->sql->fetch_assoc())
             {
-            	$pages[$i] = new SinglePage($row['Id'], $row['Name'], $row['Text']);
+            	$pages[$i] = new SinglePage($row['Name'], $row['Text']);
             	$i++;
             }
         }
@@ -39,7 +39,7 @@ class Page
         {
             while($row = $this->db->sql->fetch_assoc())
             {
-            	$page = new SinglePage($row['Id'], $row['Name'], $row['Text']);
+            	$page = new SinglePage($row['Name'], $row['Text']);
             }
         }
         return $page;
