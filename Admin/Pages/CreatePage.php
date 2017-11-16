@@ -18,4 +18,8 @@ if(isset($_POST['go']))
     $page = new SinglePage($Name, $Text);
 
     $page->AddPage();
+
+    print "Added succesfully";
+
+    header("Refresh: 2; URL=?page=home");
 }

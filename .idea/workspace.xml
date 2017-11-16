@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b72b37c-0afc-4cbb-bd6d-456420288b4e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/Pages/EditPage.php" afterPath="$PROJECT_DIR$/Admin/Pages/EditPage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/index.php" afterPath="$PROJECT_DIR$/Admin/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/Pages/CreatePage.php" afterPath="$PROJECT_DIR$/Admin/Pages/CreatePage.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,21 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EditPage.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Admin/Pages/EditPage.php">
+      <file leaf-file-name="CreatePage.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Admin/Pages/CreatePage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeletePage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/Pages/DeletePage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="50" lean-forward="false" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+            <state relative-caret-position="414">
+              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -57,7 +44,6 @@
         <option value="$PROJECT_DIR$/Assets/Pager/CreateMenu.php" />
         <option value="$PROJECT_DIR$/Admin/Pages/404.php" />
         <option value="$PROJECT_DIR$/Admin/Pages/home.php" />
-        <option value="$PROJECT_DIR$/Admin/Pages/CreatePage.php" />
         <option value="$PROJECT_DIR$/Admin/Assets/Pager/CreateMenu.php" />
         <option value="$PROJECT_DIR$/Admin/Assets/Classes/page.php" />
         <option value="$PROJECT_DIR$/Admin/Pages/PagesOverview.php" />
@@ -67,6 +53,7 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Admin/index.php" />
         <option value="$PROJECT_DIR$/Admin/Pages/EditPage.php" />
+        <option value="$PROJECT_DIR$/Admin/Pages/CreatePage.php" />
       </list>
     </option>
   </component>
@@ -111,12 +98,6 @@
               <item name="peercoachWS" type="b2602c69:ProjectViewProjectNode" />
               <item name="peercoachWS" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="peercoachWS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="peercoachWS" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Pages" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -223,12 +204,12 @@
       <updated>1510677691923</updated>
       <workItem from="1510677698597" duration="4608000" />
       <workItem from="1510692610464" duration="1935000" />
-      <workItem from="1510819801722" duration="559000" />
+      <workItem from="1510819801722" duration="864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7102000" />
+    <option name="totallyTimeSpent" value="7407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
@@ -420,18 +401,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/Pages/CreatePage.php">
+    <entry file="file://$PROJECT_DIR$/Admin/Pages/EditPage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="666">
+          <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/Pages/EditPage.php">
+    <entry file="file://$PROJECT_DIR$/Admin/Pages/CreatePage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="414">
+          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
           <folding />
         </state>
       </provider>
